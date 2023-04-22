@@ -65,7 +65,7 @@ function App() {
           </div>
         </div>
       </main>
-      <footer className="self-center p-1 text-center absolute bottom-0">
+      <footer className="self-center p-1 text-center absolute bottom-0 text-white">
         Challenge by{" "}
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor
