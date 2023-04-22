@@ -38,7 +38,7 @@ export const Accordion = ({
       </motion.h2>
       <AnimatePresence initial={false}>
         {expanded && (
-          <motion.section
+          <motion.p
             key="content"
             initial="collapsed"
             animate="open"
@@ -51,7 +51,7 @@ export const Accordion = ({
             className="overflow-hidden text-neutral-dark_blue pr-10"
           >
             {content}
-          </motion.section>
+          </motion.p>
         )}
       </AnimatePresence>
     </>
