@@ -32,7 +32,7 @@ const data: AccordionItem[] = [
 ];
 
 function App() {
-  const [expanded, setExpanded] = useState(0);
+  const [expanded, setExpanded] = useState(1);
   const handleAccordionClick = useCallback(
     (i: number) => {
       return () => setExpanded(i);
@@ -42,12 +42,12 @@ function App() {
   return (
     <div className="h-screen w-screen flex flex-col">
       <main className="flex-grow grid place-content-center p-6 font-outfit bg-gradient-to-t from-primary-soft_blue to-primary-soft_violet">
-        <div className="bg-white rounded-xl flex flex-col lg:grid lg:grid-cols-2 p-4 lg:p-6 ">
+        <div className="bg-white rounded-3xl shadow-2xl flex flex-col lg:grid lg:grid-cols-2 p-4 lg:p-12 ">
           <DesktopIlustration />
           <MobileIlustration />
 
           <div className="p-6 flex flex-col items-center max-w-[350px]">
-            <h1 className="text-5xl font-bold text-primary-dark_blue lg:self-start mb-8">
+            <h1 className="text-4xl lg:text-5xl font-bold text-primary-dark_blue lg:self-start mb-8">
               FAQ
             </h1>
             <ul className="divide-y divide-neutral-dividers-light_blue">
@@ -75,7 +75,7 @@ function App() {
         Coded by{" "}
         <a
           href="https://neronim1141.github.com"
-          className="underline hover:text-primary-cyan"
+          className="underline hover:text-blue-300"
         >
           Kacper Kruczek
         </a>

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export const DesktopIlustration = () => {
   return (
-    <div className="relative hidden lg:block -m-6">
+    <div className="relative hidden lg:block -m-12">
       <div className="relative w-full h-full overflow-hidden">
         <motion.img
           src={bgPatternDesktop}

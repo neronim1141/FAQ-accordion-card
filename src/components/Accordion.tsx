@@ -19,7 +19,7 @@ export const Accordion = ({
   // them in and out while also only rendering the contents of open accordions
   return (
     <>
-      <motion.header
+      <motion.h2
         initial={false}
         onClick={onClick}
         className={clsx(
@@ -35,7 +35,7 @@ export const Accordion = ({
           alt="icon-arrow-down"
           className={"transition-transform " + (expanded ? "rotate-180" : "")}
         />
-      </motion.header>
+      </motion.h2>
       <AnimatePresence initial={false}>
         {expanded && (
           <motion.section
