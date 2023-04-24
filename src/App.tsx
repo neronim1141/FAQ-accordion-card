@@ -74,7 +74,7 @@ function App() {
         <br />
         Coded by{" "}
         <a
-          href="https://neronim1141.github.com"
+          href="https://neronim1141.github.io"
           className="underline hover:text-blue-300"
         >
           Kacper Kruczek
